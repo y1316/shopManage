@@ -24,7 +24,7 @@
     <!-- 中文乱码处理 -->
     <filter>
         <filter-name>encodingFilter</filter-name>
-        <filter-class>com.zking.ssm.utils.EncodingFiter</filter-class>
+        <filter-class>com.shop.ssm.base.utils.EncodingFiter</filter-class>
         <!--web.xml 3.0的新特性，是否支持异步-->
         <async-supported>true</async-supported>
         <init-param>
@@ -55,6 +55,6 @@
         <url-pattern>/</url-pattern>
     </servlet-mapping>
     <welcome-file-list>
-        <welcome-file>/zking/zking.shtml</welcome-file>
+        <welcome-file>/shop/shop.shtml</welcome-file>
     </welcome-file-list>
 </web-app>

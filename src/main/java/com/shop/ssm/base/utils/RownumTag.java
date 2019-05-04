@@ -1,12 +1,8 @@
-package com.shop.ssm.utils;
-
-import java.util.Map;
+package com.shop.ssm.base.utils;
 
 import javax.servlet.jsp.JspException;
 import javax.servlet.jsp.JspWriter;
 import javax.servlet.jsp.tagext.BodyTagSupport;
-
-import com.shop.ssm.utils.PageBean;
 
 public class RownumTag extends BodyTagSupport {
 

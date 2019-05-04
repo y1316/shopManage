@@ -9,7 +9,7 @@ import java.util.Locale;
 
 @Controller
 public class IndexController {
-    @RequestMapping("/zking/zking.shtml")
+    @RequestMapping("/shop/shop.shtml")
     public String toIndex(){
         return "index";
     }
