@@ -1,4 +1,4 @@
-package com.shop.ssm.utils;
+package com.shop.ssm.base.utils;
 
 import javax.servlet.*;
 import javax.servlet.http.HttpServletRequest;

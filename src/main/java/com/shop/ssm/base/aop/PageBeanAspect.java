@@ -2,7 +2,7 @@ package com.shop.ssm.base.aop;
 
 import com.github.pagehelper.PageHelper;
 import com.github.pagehelper.PageInfo;
-import com.shop.ssm.utils.PageBean;
+import com.shop.ssm.base.utils.PageBean;
 import org.aspectj.lang.ProceedingJoinPoint;
 import org.aspectj.lang.annotation.Around;
 import org.aspectj.lang.annotation.Aspect;
